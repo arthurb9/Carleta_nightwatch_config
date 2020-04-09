@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "nightwatch -c chrome.nightwatch.conf.js",
-    "test-chrome": "nightwatch -c chrome.nightwatch.conf.js",
-    "test-firefox": "nightwatch -c firefox.nightwatch.conf.js"
+    "test": "npx nightwatch -c chrome.nightwatch.conf.js",
+    "test-chrome": "npx nightwatch -c chrome.nightwatch.conf.js",
+    "test-firefox": "npx nightwatch -c firefox.nightwatch.conf.js"
   },
   "keywords": [],
   "author": "",
